@@ -9,7 +9,9 @@
           >Contact</el-button
         >
       </template>
-      <router-view />
+      <!-- <Transition> -->
+        <router-view />
+      <!-- </Transition> -->
     </el-card>
   </div>
 </template>
@@ -27,10 +29,12 @@ const handleClick = (path) => {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #bdc3c7;
+  height: 100vh;
+  width: 100vw;
 }
 .el-card {
   width: 500px;
   height: 300px;
 }
-
 </style>
